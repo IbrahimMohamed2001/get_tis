@@ -1,5 +1,5 @@
 name: TIS Setup
-version: "0.0.1"
+version: "0.0.2"
 slug: tis_get
 # image: "ghcr.io/hacs/{arch}-addon-get"
 description: The easiest way to Setup TIS for Home Assistant
@@ -18,3 +18,7 @@ map:
   - homeassistant_config:rw
   - addons:rw
   - all_addon_configs:rw
+  - backup:rw
+  - media:rw
+  - share:rw
+  - ssl:rw
